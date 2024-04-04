@@ -1,0 +1,38 @@
+.product-card {
+  width: 300px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  .product-content {
+    padding: 24px;
+    position: relative;
+
+    button {
+      position: absolute;
+      bottom: 0;
+      width: 60%;
+    }
+  }
+}
+
+table {
+  text-align: center;
+}
+
+form {
+  width: 600px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 12px rgba($color: #000000, $alpha: 0.7);
+  border-radius: 8px;
+  padding: 32px;
+  margin: 0 auto;
+  .form-group {
+    margin-bottom: 24px;
+  }
+}
