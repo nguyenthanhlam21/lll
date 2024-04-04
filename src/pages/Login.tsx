@@ -1,5 +1,4 @@
 import { joiResolver } from '@hookform/resolvers/joi';
-import React from 'react'
 import { useForm } from 'react-hook-form';
 import Joi from 'joi';
 import { TUser } from '../interfaces/TUser';
